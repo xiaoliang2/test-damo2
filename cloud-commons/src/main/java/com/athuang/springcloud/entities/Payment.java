@@ -20,6 +20,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 public class Payment implements Serializable
 {
+    private Long id2;
     private Long id;
     private String serial;
 }
