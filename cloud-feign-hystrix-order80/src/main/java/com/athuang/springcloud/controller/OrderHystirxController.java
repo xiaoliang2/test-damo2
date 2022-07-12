@@ -30,7 +30,6 @@ public class OrderHystirxController
     public String paymentInfo_OK(@PathVariable("id") Integer id)
     {
         String result = paymentHystrixService.paymentInfo_OK(id);
-        System.out.println("git");
         return result;
     }
 
